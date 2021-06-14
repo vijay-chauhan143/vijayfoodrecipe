@@ -1,0 +1,45 @@
+body{
+
+  background-color: antiquewhite;
+  margin:0 0;
+
+}
+.main-div{
+
+  margin: 1rem 2rem;
+
+}
+.header-div{
+
+  background-color:rgb(255, 81, 0);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+}
+
+.header-div h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 6rem;
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+}
+ .FastfoodIcon{
+  width: 5rem;
+  height: 5rem;
+}
+  .input{
+ margin-bottom: 3rem;
+ 
+}
+
+@media(max-width:668px){
+  .header-div h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    text-transform:uppercase;
+  }
+
+}
